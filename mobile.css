@@ -87,7 +87,7 @@ h1 {
 #textContainer {
     width: 100%;
     max-width: 300px;
-    height: auto;
+    height: 400px;
     background-color: rgb(102, 136, 136);
     padding: 10px;
     border-radius: 10px;

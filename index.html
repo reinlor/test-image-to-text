@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image to Text</title>
+    <link rel="stylesheet" href="style.css" media="screen and (min-width: 1280px) and (max-width: 3840px)">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 425px)">
+
+</head>
+<body>
+    <h1>Image to text Test</h1>
+    <div id="container">
+        <div id="imageContainer">
+            <h2>Image</h2>
+            <div id="dropbox">Drag & Drop Files Here</div>
+            <input type="file" id="fileInput" accept="image/*">
+        </div>
+        <div id="resultContainer">
+            <h2>Result</h2>
+            <div id="result">
+                <img id="preview" alt="Image Preview">
+            </div>
+        </div>
+    </div>
+    <button id="convert-btn">Convert to Text</button>
+    <div id="textContainer">
+        <div id="ocr-result">Result text Here ( ͡° ͜ʖ ͡°)</div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tesseract.js/4.0.2/tesseract.min.js"></script>
+    <script src="scanImage.js"></script>
+</body>
+</html>

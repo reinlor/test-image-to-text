@@ -41,6 +41,7 @@ h1 {
 
 #resultContainer{
     overflow: auto;
+    max-height: 400px;
 }
 
 #dropbox {

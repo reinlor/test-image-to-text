@@ -39,6 +39,10 @@ h1 {
     margin-bottom: 15px;
 }
 
+#resultContainer{
+    overflow: auto;
+}
+
 #dropbox {
     width: 100%;
     max-width: 250px;
